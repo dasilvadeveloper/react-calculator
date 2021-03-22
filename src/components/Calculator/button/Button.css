@@ -1,6 +1,6 @@
 .button {
 	width: 65px;
-	height: 60px;
+	height: 65px;
 	color: white;
 	background: linear-gradient(
 		145deg,
@@ -40,4 +40,11 @@
 
 .button:active {
 	transform: scale(0.9);
+}
+
+@media (max-width: 420px) {
+	.button {
+		width: 50px;
+		height: 50px;
+	}
 }
