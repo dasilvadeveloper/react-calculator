@@ -1,0 +1,43 @@
+.button {
+	width: 65px;
+	height: 60px;
+	color: white;
+	background: linear-gradient(
+		145deg,
+		rgb(34, 85, 194) 0%,
+		rgb(35, 194, 194) 100%
+	);
+	border: none;
+	font-size: 1.1rem;
+	font-weight: 600;
+	border-radius: 1rem;
+	transition: all 0.1s;
+}
+
+.operator {
+	background: linear-gradient(
+		145deg,
+		rgb(194, 151, 34) 0%,
+		rgb(194, 120, 35) 100%
+	);
+}
+
+.equals {
+	background: linear-gradient(
+		145deg,
+		rgb(34, 194, 42) 0%,
+		rgb(35, 194, 133) 100%
+	);
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
+
+.button:active {
+	transform: scale(0.9);
+}
